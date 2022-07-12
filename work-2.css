@@ -1,0 +1,241 @@
+body{
+    line-height: 27px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #777777;
+    margin: 0pxS;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: "Rajdhani", sans-serif;
+}
+@media  (min-width:1068px) {
+    .go{
+        width: 35% !important;
+    }  
+}
+
+/* 分界线 */
+
+.section-1{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    min-height: 398px;
+}
+.section-1 .picture{
+    width: 66%;
+}
+.section-1 .picture img{
+    width: 100%;
+    height: auto;
+}
+.section-1 .header-right{
+    width: 34%;
+    margin-top: 60px;
+}
+.section-1 .header-right .text{
+    display: block;
+    padding-left: 4%;    
+    padding-right: 48px;
+}
+.section-1 .header-right .text h1{
+    display: block;
+    color: #222;
+    font-size: 60px;
+    font-weight: 200;
+    line-height: 0px;
+}
+.section-1 .go{
+    position: absolute;
+    background-color: #f5ca56;
+    width: 34%;
+    right: 0;
+    bottom: 0;
+    line-height: 100px;
+    padding: 0 95px;
+}
+.section-1 .go a{
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+    margin-right: 30px;
+}
+.section-1 .go a:before {
+    content: "\f178";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.section-1 .go a:last-child:before { 
+    display: none;
+}
+
+
+.section-2{
+    box-sizing: border-box;
+    padding-top: 150px;
+    width: 80%;
+    padding: 150px 0% 0px 0%;
+    margin: 0 auto;
+}
+.section-2 .H1{
+    display: flex;
+}
+.section-2 .H1 .L1{
+    width: 45%;
+    margin-bottom: 80px;
+}
+.section-2 .H1 .L1 .content{
+    font-family: "Rajdhani", sans-serif;
+    color: black;
+    padding-left: 10%;
+    line-height: 1.2;
+    font-size: 42px;
+}
+.section-2 .H1 .L1 span{
+    color: rgb(255, 206, 115);
+}
+.section-2 .H1 .L1 p{
+    opacity: 0.7;
+    font-size: 14px;
+    line-height: 27px;
+}
+.section-2 .H2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.section-2 .H2 .L1{
+    width: 48.5%;
+    text-align: right;
+    padding: 0 15px;
+}
+.section-2 .H2 .L2{
+    width: 48.5%;
+    text-align: left;
+    padding: 0  15px;
+}
+.section-2 .H2 .L1 .picture{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.section-2 .H2 .L1 .picture img{
+    width: 100%;
+    height: auto;
+}
+.section-2 .H2 .L2 .content{
+    line-height: 27px;
+    padding-right: 8%;
+}
+.section-2 .H2 .L2 h3{
+    margin-top: 0px;
+    font-size: 24px;
+    color: #222 ;
+}
+.section-2 .H2 .L2 .counter{
+    display: flex;
+    box-sizing: border-box;
+}
+.section-2 .H2 .L2 .counter .counter-1,.counter-2,.counter-3{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    width: 165px;
+    height: 180px;
+    padding: 30px;
+    margin-right: 10px;
+    transition: all 0.3s ease 0s;
+}
+.section-2 .H2 .L2 .counter h1{
+    font: 36px;
+    color: #222;
+}
+.section-2 .H2 .L2 .counter .counter-1:hover,.counter-2:hover,.counter-3:hover{
+    background-color: #f5ca56;
+    transition: all 0.3s;
+    color: white;
+    filter: grayscale(0.1);
+}
+.section-2 .H2 .L2 .counter .counter-1:hover img,.counter-2:hover img,.counter-3:hover img{
+    filter: brightness(10);
+}
+.section-2 .H2 .L2 .counter .counter-1:hover h1{
+    color: white;
+}
+.section-2 .H2 .L2 .counter .counter-2:hover h1{
+    color: white;
+}
+.section-2 .H2 .L2 .counter .counter-3:hover h1{
+    color: white;
+}
+
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+}
+.section-3 .L1{
+    width: 41.6667%;
+    padding-left: 7%;
+}
+.section-3 .L2{
+    width: 50%;
+}
+.section-3 .L1 span{
+    font-size: 42px;
+}
+.section-3 .L1 .title{
+    margin-bottom: 30px;
+}
+.section-3 .L1 p{
+    margin-bottom: 16px;
+}
+.section-3 .L1 .author{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.section-3 .L1 .author img{
+    width: 12%;
+}
+.section-3 .L1 .author .author-text{
+    padding-left: 5%;
+    width: 88%;
+}
+.section-3 .L1 .author .author-text h5{
+    color: #222;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.section-3 .L1 .author .author-text p{
+    margin: 0 0 15px 0;
+}
+.section-3 .L1 .picture{
+    display: flex;
+    margin-top: 50px;
+}
+.section-3 .L1 .picture .picture-1{
+    width: 33%;
+    filter: grayscale(7);
+}
+.section-3 .L1 .picture .picture-2{
+    width: 33%;
+    filter: grayscale(7);
+}
+.section-3 .L1 .picture .picture-3{
+    width: 33%;
+    filter: grayscale(7);
+}

@@ -1,0 +1,711 @@
+body{
+    margin: 0px;
+}
+
+.section-1{
+    display: flex;
+    align-items: flex-start;
+}
+.section-1 .picture{
+    width: 66.6%;
+    height: 100vh;
+    object-fit: cover;
+}
+.section-1 .picture img{
+    width: 100%;
+    height: 100%;
+}
+.section-1 .text{
+    width: 33.4%;
+    position: relative;
+    height: 100vh;
+}
+.section-1 .text .h1{
+    font-family: sans-serif;
+    padding: 10px 80px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.section-1 .text .content{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.section-1 .text .content .title{
+    font-family: "Rajdhani", sans-serif;
+    line-height: 60px;
+    font-size: 48px;
+}
+.section-1 .text .content .p{
+    font-family: "Rajdhani", sans-serif;
+    line-height: 25px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+.section-1 .text .go{
+    background-color: rgb(240, 195, 113);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px 40px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 600px;
+    cursor: pointer;
+}
+.section-1 .text .go:hover p{
+    transform: translate(-15px, 0);
+    transition: all 0.5s;
+}
+.section-1 .text .go:hover img{
+    transition: all 0.5s ease-in-out;
+    transform: translate(30px, 0);
+}
+.section-1 .text .go a{
+    text-decoration: none;
+    color: white;
+}
+.section-1 .text .go img{
+    filter:brightness(8);
+}
+
+                    /* 后期添加补充内容 */
+.section-1 .side-menu{
+    position: fixed;
+    background: #f9f9ff;
+    z-index: 998;
+    right: -33.4%;
+    width: 33.4%;
+    height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+    opacity: 0.95;
+    transition: all 0.3s ease 0s;
+}
+.section-1 .side-menu ul{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.section-1 .side-menu li{
+    width: 100%;
+    padding: 12px 0;
+}
+.section-1 .side-menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.section-1 .text .h1{
+    position: relative;
+}
+.section-1 .text .h1 .menu{
+    z-index: 999;
+    position: absolute;
+    cursor: pointer;
+    right: 15%;
+    top: 18%;
+}
+.section-1 .text .h1 .menu img{
+    position: fixed;
+    
+}
+/* .section-1 .picture .menu{
+    display: none;
+} */
+
+
+
+.section-2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20vh 10vw;
+}
+.section-2 .L1{
+    width: 48.5%;
+}
+.section-2 .L2{
+    width: 48.5%;
+}
+.section-2 .L1 .content .picture1{
+    position: relative;
+}
+.section-2 .L1 .content .content2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-family: "Rajdhani",sans-serif;
+    background-color: white;
+    padding: 30px;
+}
+.section-2 .L1 .content .title{
+    padding-left: 25px;
+    font-family: "Rajdhani", sans-serif;
+    line-height: 60px;
+    font-size: 36px;
+}
+.section-2 .L1 .content .title span{
+    color: rgb(255, 206, 115);
+}
+.section-2 .L1 .content .title p{
+    font-family: "Rajdhani", sans-serif;
+    line-height: 25px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+.section-2 .L1 .content .picture1{
+    width: 100%;
+    margin-top: 100px;
+}
+.section-2 a{
+    text-decoration: none;
+    color: #222222;
+}
+.section-2 span{
+    cursor: pointer;
+}
+.section-2 a:hover{
+    color: #f5ca56;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.section-2 span:hover img{
+    transform: translate(15px,0);
+    transition: all 0.5s;
+}
+.section-2 .picture1{
+    width: 100%;
+    height: auto;
+}
+.section-2 .L1 .picture2{
+    margin-top: 30px;
+    padding: 50px 0px;
+    display: flex;
+    align-items: flex-start;
+}
+.section-2 .L1 .picture2 .picture2-1{
+    width: 33%;
+    filter: grayscale(1);
+    transition: all .15s;
+    cursor: pointer;
+}
+.section-2 .L1 .picture2 .picture2-2{
+    width: 33%;
+    filter: grayscale(1);
+    transition: all .15s;
+    cursor: pointer;
+}
+.section-2 .L1 .picture2 .picture2-3{
+    width: 34%;
+    filter: grayscale(1);
+    cursor: pointer;
+}
+
+.section-2 .L1 .picture2 .picture2-1:hover{
+    filter: grayscale(0.1);
+}
+.section-2 .L1 .picture2 .picture2-2:hover{
+    filter: grayscale(0.1);
+}
+.section-2 .L1 .picture2 .picture2-3:hover{
+    filter: grayscale(0.1);
+}
+.section-2 .L2{
+    padding: 120px 0px;
+}
+.section-2 .L2 .picture1{
+    position: relative;
+}
+.section-2 .L2 .picture1 .content{
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 180px;
+    width: 260px;
+    font-family: "Rajdhani",sans-serif;
+    background-color: white;
+    padding: 30px;
+}
+.section-2 .L2 .picture2{
+    margin-top: 30px;
+    position: relative;
+}
+.section-2 .content-1{
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 180px;
+    width: 260px;
+    font-family: "Rajdhani",sans-serif;
+    background-color: white;
+    padding: 30px;
+}
+
+
+
+.content-1 .title-1 {
+    color: rgb(255, 206, 115);
+}
+.content-1 p{
+    font-size: 130%;
+}
+
+
+
+
+.section-3{
+    display: flex;
+    padding: 5vh 10vw;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.section-3 .L1{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 36px;
+    width: 48.5%;
+}
+.section-3 .L1 .picture{
+    text-align: center;
+    margin-top: 70px;
+    width: 100%;
+}
+.section-3 .L1 .picture img{
+    max-width: 100%;
+    height: auto;
+}
+.section-3 .L1 p{
+    font-family: "Rajdhani", sans-serif;
+    line-height: 25px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+.section-3 .L1 span{
+    color: rgb(255, 206, 115);
+}
+.section-3 .L2{
+    margin-top: 320px;
+    padding-left: 120px;
+    width: 48.5%;
+}
+.section-3 .L2 .content1{
+    padding-right: 120px;
+}
+.section-3 .L2 span{
+    cursor: pointer;
+}
+.section-3 .L2 a{
+    text-decoration: none;
+    color: #222;
+}
+.section-3 .L2 span:hover{
+    color: #f5ca56;
+}
+.section-3 .L2 span:hover img{
+    transform: translate(15px,0);
+    transition: all 0.5s;
+}
+.section-3 .L2 p{
+    font-size: 12px;
+    opacity: 0.3;
+    line-height: 30px;
+}
+.section-3 .L2 .content2{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.section-3 .L2 .content3{
+    padding-right: 120px;
+   margin-top: 50px;
+}
+
+
+
+.section-4{
+    padding: 100px 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.section-4 .L1{
+    padding: 30px 0px;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 36px;
+    width: 48.5%;
+    text-align: right !important;
+}
+.section-4 .L2{
+    width: 48.5%;
+    text-align: left;
+}
+.section-4 .L1 .content{
+    text-align: left;
+    padding-left: 38%;
+}
+.section-4 .L1 .content p{
+    font-family: "Rajdhani", sans-serif;
+    line-height: 25px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+.section-4 .L1 .content span{
+    color: rgb(255, 206, 115);
+}
+.section-4 .L1 .picture1{
+    width: 100%;
+}
+.section-4 .L1 .picture1 img{
+    max-width: 100%;
+    height: auto;
+}
+.section-4 .L1 .picture2{
+    margin-top: 30px;
+    width: 100%;
+}
+.section-4 .L1 .picture2 img{
+    max-width: 100%;
+    height: auto;
+}
+.section-4 .L2 .picture1{
+    width: 100%;
+}
+.section-4 .L2 .picture1 img{
+    max-width: 100%;
+    height: auto;
+}
+.section-4 .L2 .picture2{
+    margin-top: 30px;
+    width: 100%;
+}
+.section-4 .L2 .picture2 img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.section-4 .L2 .picture3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.section-4 .L2 .picture3 h1{
+    font-size: 30px;
+    margin: 0;
+}
+.section-4 .L2 .picture3 .picture3-1{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    padding: 30px;
+    margin-right: 15px;
+    height: 180px;
+    width: 165px;
+    font: 14px Roboto,sans-serif;
+    transition: all 0.3s ease 0s;
+}
+.section-4 .L2 .picture3 .picture3-2{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    padding: 30px;
+    margin-right: 15px;
+    height: 180px;
+    width: 175px;
+    font: 14px Roboto,sans-serif;
+    transition: all 0.3s ease 0s;
+}
+.section-4 .L2 .picture3 .picture3-3{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    padding: 30px;
+    margin-right: 15px;
+    height: 180px;
+    width: 165px;
+    font: 14px Roboto,sans-serif;
+    transition: all 0.3s ease 0s;
+}
+.section-4 .L2 .picture3 .picture3-1:hover{
+    background-color: rgb(255, 206, 115);
+    color: white;
+}
+.section-4 .L2 .picture3 .picture3-2:hover{
+    background-color: rgb(255, 206, 115);
+    color: white;
+}
+.section-4 .L2 .picture3 .picture3-3:hover{
+    background-color: rgb(255, 206, 115);
+    color: white;
+}
+
+.section-4 .L2 .picture3 .picture3-1:hover img{
+    filter: brightness(10);
+}
+.section-4 .L2 .picture3 .picture3-2:hover img{
+    filter: brightness(10);
+}
+.section-4 .L2 .picture3 .picture3-3:hover img{
+    filter: brightness(10);
+}
+.section-4 .L2 .picture3 img{
+    padding-bottom: 20px;
+}
+
+
+
+
+.section-5{
+    padding: 5vh 10vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.section-5 .L1{
+    width: 48.5%;
+}
+.section-5 .L2{
+    width: 48.5%;
+}
+.section-5 .L1 .content1 p{
+    font-family: "Rajdhani", sans-serif;
+    line-height: 25px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+.section-5 .L1 .content1 .title{
+    font-size: 36px;
+}
+.section-5 .L1 .content1 .title span{
+    color: rgb(255, 206, 115);
+}
+.section-5 .L1 .content2{
+    padding-top: 20px;
+    opacity: 0.2;
+}
+.section-5 .L1 .content2 h3{
+    font-size: 36px;
+}
+.section-5 .L1 .content3{
+    display: flex;
+    align-items: flex-start;
+}
+.section-5 .L1 .content3 .author{
+    width: 10%;
+    padding-top: 20px;
+}
+.section-5 .L1 .content3 .introduce{
+    text-align: left;
+    width: 90%;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 8px;
+    font-size: 18px;
+}
+.section-5 .L1 .content3 .introduce p {
+    opacity: 0.2;    
+}
+.section-5 .L1 .picture1{
+    margin-top: 200px;
+}
+.section-5 .L2 .picture1 img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+.section-6{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5vh 10vw;
+}
+.section-6 .L1{
+    width: 48.5%;
+    text-align: right;
+}
+.section-6 .picture{
+    padding-top: 30px;
+}
+.section-6 .picture .picture1{
+    position: relative;
+}
+.section-6 .picture .picture1 img{
+    filter: contrast(0.5);
+}
+.section-6 .picture .picture1 .content1 img{
+    filter: contrast(1);
+}
+.section-6 .picture .card{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.section-6 .picture .card span{
+    font-size: 70%;
+    opacity: 0.5;
+}
+.section-6 .picture .content1{
+    width: 350px;
+    height: 280px;
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    color: white;
+    text-align: left;
+}
+.section-6 .picture .content1 h5{
+    font-size: 25px;
+}
+.section-6 .picture .content1 p{
+    font-size: 15px;
+}
+.section-6 .picture .content1 span{
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.section-6 .L2{
+    width: 48.5%;
+    text-align: left;
+}
+.section-6 .L2 .content{
+    padding: 30px 0px 50px 0px;
+    padding-left: 20%;
+    text-align: right;
+}
+.section-6 .L2 .content p{
+    font-family: "Rajdhani", sans-serif;
+    line-height: 25px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+.section-6 .L2 .content .title{
+    font-size: 36px;
+}
+.section-6 .L2 .content .title span{
+    color: rgb(255, 206, 115);
+}
+.section-6 .L2 .join{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    padding: 60px;
+    margin-top: 50px;
+    background-color: #f5ca56;
+}
+.section-6 .L2 .join .A1{
+    color: white;
+    font-size: 36px;
+    flex: 6;
+}
+.section-6 .L2 .join .A2{
+    text-align: center;
+    flex: 4;
+    position: relative;
+}
+.section-6 .L2 .join .A2 .A2-1{
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    padding: 0 30px;
+    text-align: center;
+}
+.section-6 .content1 a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.section-6 .content1 a:hover{
+    color: #f5ca56;
+}
+.section-6 .content1 span:hover img{
+    transform: translate(15px,0);
+    transition: all 0.5s;
+}
+.section-6 .L2 .join .A2 .A2-1{
+    cursor: pointer;
+    color: #222;
+}
+.section-6 .L2 .join .A2 .A2-1 a{
+    text-decoration: none;
+}
+.section-6 .L2 .join .A2 .A2-1:hover a{
+    color: #f5ca56;
+}
+
+
+
+
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15% 7%;
+    background-color: #000410;
+    color: #777777;
+    font-size: 12px;
+    line-height: 27px;
+    font-family: "Robot",sans-serif;
+}
+.footer h3{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+}
+.footer .L1{
+    text-align: left;
+    flex: 9;
+}
+.footer .L2{
+    padding: 0px 50px;
+    text-align: left;
+    flex: 6;
+}
+.footer .L2 form{
+    position: relative;
+}
+.footer .L2 .go{
+    width: 50px;
+    height: 100%;
+    background-color: #f5ca56;
+    text-decoration: none;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+input[type=text]{
+    width: 344px;
+    height: 40px;
+    padding: 0px 15px;
+}
+
+.footer .L3{
+    padding-left: 50px;
+    text-align: left;
+    flex: 5;
+}
